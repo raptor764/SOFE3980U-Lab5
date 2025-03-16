@@ -19,4 +19,4 @@ Go through the notebook and follow the steps to install the necessary libraries,
 ### Task 1
 - Download the [Great Expectations Task 1 Notebook]()
 - Follow the instructions in there.
-- In your report, explain the three expectations you used.
+- In your report, explain the three expectations you used and their relevance to the dataset.
