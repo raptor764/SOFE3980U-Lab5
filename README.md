@@ -43,14 +43,14 @@ CleanLab can significantly improve model performance by reducing the impact of l
 
 
 ### Task 2:
-- Download the [CleanLab Task 2 Notebook]() into a folder in your Google Drive.
+- Download the [CleanLab Task 2 Notebook](https://github.com/zubxxr/SOFE3980U-Lab5/blob/main/CleanLab_Task2.ipynb) into a folder in your Google Drive.
 - Go through the notebook, and run each cell in order.
 - Answer the following question after running all the cells:
   
   `Why might this data point be mislabeled, and which feature values could have caused the misclassification?`
 
 ### Task 3:
-- Download the [CleanLab Task 3 Notebook]() into a folder in your Google Drive.
+- Download the [CleanLab Task 3 Notebook](https://github.com/zubxxr/SOFE3980U-Lab5/blob/main/CleanLab_Task3.ipynb) into a folder in your Google Drive.
 - Go through the notebook, and run each cell in order.
 - Answer the following questions after running all the cells:
   
