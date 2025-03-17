@@ -1,8 +1,11 @@
-# Data Quality
+# Lab 5: Data Quality and Validation
 
-This lab guides students through assessing and improving data quality using:
-1. **Great Expectations** for data validation.
-2. **Cleanlab** for identifying label errors.
+In this lab, students will explore techniques for assessing and improving data quality. The lab focuses on two powerful tools:
+
+    Great Expectations – A data validation framework that helps ensure data integrity and consistency.
+    Cleanlab – A tool for detecting and correcting mislabeled data to improve model performance.
+
+By working through this lab, students will gain hands-on experience in identifying data issues and enhancing dataset reliability, which are critical steps in any data science or machine learning workflow.
 
 ## Repository:   
 [https://github.com/zubxxr/SOFE3980U-Lab5](https://github.com/zubxxr/SOFE3980U-Lab5) 
@@ -11,11 +14,12 @@ This lab guides students through assessing and improving data quality using:
 
 Great Expectations (GX) is an open-source data validation framework that helps ensure data quality by defining, testing, and documenting expectations for datasets. It provides tools for profiling data, creating validation rules, and generating reports to maintain data integrity in pipelines.
 
-To start working with it, navigate to the [Great Expectations Notebook](https://github.com/zubxxr/SOFE3980U-Lab5/blob/main/Great_Expectations.ipynb) and download it. This is a Google Colab Notebook, an interactive environment that allows you to write and execute Python code in the cloud without needing to set up anything on your local machine. 
+### Getting Started
+To start working with it, navigate to the [Great Expectations Notebook](https://github.com/zubxxr/SOFE3980U-Lab5/blob/main/Great_Expectations.ipynb) and download it. This is a Google Colab Notebook, an interactive environment that allows you to write and execute Python code in the cloud without needing to set up anything on your local machine. The notebook is structured into code cells that can be run individually and in sequence.
 
 After downloading it, go into Google Drive, and import the notebook into there. Then double click on the file to open it.
 
-Go through the notebook and follow the steps to install the necessary libraries, load the dataset, and set up data validation with Great Expectations. The notebook demonstrates the process of loading the UCI Adult dataset, defining data expectations, and validating those expectations against the dataset. The goal is to ensure that the data meets certain quality standards by checking whether specific column values fall within a defined range. Each step is explained in detail, guiding you through the installation, setup, and validation process. By the end of the notebook, you'll understand how to use Great Expectations for data validation and quality assurance in your own datasets.
+Go through the notebook and follow the steps to install the necessary libraries, load the dataset, and set up data validation with Great Expectations. The notebook demonstrates the process of loading the UCI Adult dataset, defining data expectations, and validating those expectations against the dataset. The goal is to ensure that the data meets certain quality standards by checking whether specific column values fall within a defined range. Each step is explained in detail, guiding you through the installation, setup, and validation process.
 
 
 ### Task 1:
@@ -37,22 +41,25 @@ Key Features:
 
 CleanLab can significantly improve model performance by reducing the impact of label noise, leading to more accurate and reliable machine learning models.
 
+
 ### Task 2:
 - Download the [CleanLab Task 2 Notebook]() into a folder in your Google Drive.
-- sadas
-- asdasd
-- Download the notebook as a `.ipynb` file and upload it to your GitHub repository. Make sure all the output is shown.
+- Go through the notebook, and run each cell in order.
+- Answer the following question after running all the cells:
+  
+  `Why might this data point be mislabeled, and which feature values could have caused the misclassification?`
 
-
-
-## Discussion
-For CleanLab Notebook, answer the following questions:
-
-1. Based on the True Label and the Previously Assigned Label, why might this data point be considered mislabeled?
-2. What aspects of the data (e.g., feature values such as petal length, petal width, etc.) could have led to this misclassification?
-3. How could the CleanLab algorithm have detected this potential labeling issue?
-
+### Task 3:
+- Download the [CleanLab Task 3 Notebook]() into a folder in your Google Drive.
+- Go through the notebook, and run each cell in order.
+- Answer the following questions after running all the cells:
+  
+  `1. Do these suspected anomalous data points match what you expect for their species? Why or why not?`
+  
+  `2. Which feature (sepal length, petal length, etc.) seems most unusual in these points?`
+  
+  `3. How can you check if these values are truly anomalies using the original dataset?`
 
 ## Deliverables
-1. A GitHub link of the code of the three tasks
-2. Report about the discussion part and the results of the tasks.
+1. A GitHub link of the Task 1 Notebook with the output shown.
+2. Report containing the answers for each task.
