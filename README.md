@@ -37,7 +37,6 @@ Key Features:
 
 CleanLab can significantly improve model performance by reducing the impact of label noise, leading to more accurate and reliable machine learning models.
 
-
 ### Task 2:
 - Download the [CleanLab Task 2 Notebook]() into a folder in your Google Drive.
 - sadas
@@ -47,7 +46,12 @@ CleanLab can significantly improve model performance by reducing the impact of l
 
 
 ## Discussion
-Compare accuracy, recall, and precision by describing the interpretation of each of them. Using examples shows applications in which one of them is more important than the others.
+For CleanLab Notebook, answer the following questions:
+
+1. Based on the True Label and the Previously Assigned Label, why might this data point be considered mislabeled?
+2. What aspects of the data (e.g., feature values such as petal length, petal width, etc.) could have led to this misclassification?
+3. How could the CleanLab algorithm have detected this potential labeling issue?
+
 
 ## Deliverables
 1. A GitHub link of the code of the three tasks
